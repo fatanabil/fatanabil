@@ -107,10 +107,10 @@ const HomeScreen = () => {
       {/* SKILLS */}
       <div
         className="px-8 py-16 bg-slate-800 flex flex-col gap-12 items-center"
-        id="my-skills"
+        id="skills"
         ref={refSkills}
       >
-        <h1 className="text-3xl text-slate-200 font-semibold">My Skills</h1>
+        <h1 className="text-3xl text-slate-200 font-semibold">Skills</h1>
         <div className="w-full md:max-w-4xl grid gap-6 grid-cols-2 sm:grid-cols-4 transition-all">
           {skills.map((el, i) => {
             return (
@@ -130,11 +130,15 @@ const HomeScreen = () => {
       {/* PROJECTS */}
       <div
         className="px-8 py-16 bg-slate-900 flex flex-col gap-12 items-center"
-        id="my-projects"
+        id="projects"
         ref={refProjects}
       >
-        <h1 className="text-3xl text-slate-200 font-semibold">My Projects</h1>
-        <div className="h-screen"></div>
+        <h1 className="text-3xl text-slate-200 font-semibold">Projects</h1>
+        <div className="h-screen w-full flex justify-center p-8">
+          <h1 className="text-2xl text-amber-300 font-semibold italic text-opacity-50">
+            On Going ...
+          </h1>
+        </div>
       </div>
     </div>
   );
