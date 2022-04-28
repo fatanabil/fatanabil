@@ -1,9 +1,9 @@
-import RoutesApp from "./utils/RoutesApp";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
     <div className="font-sourcesans bg-blend-overlay">
-      <RoutesApp />
+      <HomeScreen />
     </div>
   );
 }
