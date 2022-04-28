@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fatanabil/static/css/main.449a003a.css",
+    "main.js": "/fatanabil/static/js/main.970e77c4.js",
+    "static/js/787.2592f56e.chunk.js": "/fatanabil/static/js/787.2592f56e.chunk.js",
+    "static/media/pp-square.png": "/fatanabil/static/media/pp-square.20d1c5bf2a18013c5b84.png",
+    "static/media/bg-main.jpg": "/fatanabil/static/media/bg-main.1369aa7f1b801a3083c6.jpg",
+    "static/media/php-icon.png": "/fatanabil/static/media/php-icon.00de592c8372208349a1.png",
+    "static/media/react-js-icon.png": "/fatanabil/static/media/react-js-icon.8547788da00610bdf467.png",
+    "static/media/mysql-icon.png": "/fatanabil/static/media/mysql-icon.9bcd18fba5cf2752aea4.png",
+    "static/media/tailwindcss-icon.png": "/fatanabil/static/media/tailwindcss-icon.352bb4c6cf195f4ccda6.png",
+    "static/media/ci-icon.png": "/fatanabil/static/media/ci-icon.9c170fc9718afe5f7dca.png",
+    "static/media/flutter-icon.png": "/fatanabil/static/media/flutter-icon.a15d228221534bdf4e4e.png",
+    "static/media/mongodb-icon.png": "/fatanabil/static/media/mongodb-icon.1e1edb69458baf4dab9d.png",
+    "static/media/figma-icon.png": "/fatanabil/static/media/figma-icon.f343beb7a9566c977fe6.png",
+    "static/media/express-js-icon.png": "/fatanabil/static/media/express-js-icon.1c61279df4da5a6bf8c1.png",
+    "index.html": "/fatanabil/index.html",
+    "main.449a003a.css.map": "/fatanabil/static/css/main.449a003a.css.map",
+    "main.970e77c4.js.map": "/fatanabil/static/js/main.970e77c4.js.map",
+    "787.2592f56e.chunk.js.map": "/fatanabil/static/js/787.2592f56e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.449a003a.css",
+    "static/js/main.970e77c4.js"
+  ]
+}
