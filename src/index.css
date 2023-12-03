@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(15, 23, 42);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fcd54a;
+  border: 5.5px solid transparent;
+  background-clip: padding-box;
+  border-radius: 20px;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fedc60;
+  border: 4.5px solid transparent;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+@layer components {
+  .tab {
+    @apply relative px-3 py-4 after:absolute after:bottom-[20%] after:left-1/2 after:h-[2px] after:w-0 after:-translate-x-1/2 after:rounded-full after:bg-white after:transition-all after:duration-150 after:ease-in-out after:hover:w-1/2;
+  }
+
+  .tab-active {
+    @apply after:w-1/2;
+  }
+
+  .text-highlight {
+    @apply font-semibold text-amber-300;
+  }
+}
